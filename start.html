@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>FIND THE GHOST</title>
+
+</head>
+
+<body>
+    
+    <div id="scene2">
+
+        <h1></h1>
+        <p id="situation2text">Hover over the door if you want to go in</p>
+        <p id="situation"> Press <a href="index.html">RETURN</a> to go out from the house</p>
+        <a href="chosetogoin.html" id= "door"></a>
+        
+        <p id="situation4">You have an emf detector to check you're at a safe distance
+        </p>
+        <p id="situation5">Listen to the audio to see whats going around
+        </p>
+
+        <audio  id="audio" controls="" autoplay="">
+            <source src="CREEP.mp3" type="audio/mpeg">
+        </audio>
+
+
+        <img id="detector" src="detector.png"  />
+
+    </div>
+
+   
+    
+
+     <style>
+         body{
+             font-size: 20px;
+             
+             color: white;
+             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+         }
+         h1{
+             font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+             font-size: 80px;
+             padding: 0 0 0 0;
+             margin: 0 0 0 0;
+
+             position:absolute;
+             left: 550px;
+             top: 200px;
+              
+         }
+
+         #scene2{
+             background: url("door.jpg") no-repeat center center fixed; 
+             -webkit-background-size:cover;
+             -moz-background-size:cover;
+             -o-background-size:cover;
+             background-size: cover;
+            
+             height: 1000px;
+             
+             
+         } 
+         a{
+             color:white;
+             text-decoration: none;
+         }
+         a:hover{
+             text-decoration:underline;
+         }
+
+         #situation2{
+
+            position: absolute;
+            top: 200px;
+        
+         }
+
+         #situation2text{
+             font-size: 60px;
+             position: absolute;
+             top: 200px;
+             left: 420px;
+             
+         }
+         
+         #door{
+             
+             position:fixed;
+             left: 700px;
+             top:100px;
+             width:300px;
+             height: 700px;
+
+         }
+         #door:hover{
+             background-color: rgba(256,256,256,.5);
+         }
+         #detector{
+             position: absolute;
+             top: 500px;
+             height: 500px;
+         }
+
+         #audio{
+             position: relative;
+             top: 700px;
+         }
+        
+         #situation4{
+            font-size: 30px;
+             position: absolute;
+             top: 400px;
+             left: 10px;
+         }
+         #situation5{
+            font-size: 30px;
+             position: absolute;
+             top: 430px;
+             left: 10px;
+         }
+         
+         
+     </style>
+
+</body>
+      
+</html>
+ 

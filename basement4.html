@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title></title>
+
+</head>
+
+<body>
+    
+    <div id="scene2">
+
+        <h1></h1>
+        <p id="situation2text"></p>
+        <p id="situation"> Press <a href="index.html">LEAVE</a> to go out from the house</p>
+        <a href="basement.html" id= "basement"></a>
+        <p id="situation1">Listen to the audio to see what's happening</p>
+        <p id="situation2">Haunted creature is coming at you!</p>
+        <p id="situation3"> Press <a href="seehaunted.html">WAIT</a> if you want to see it</p>
+
+        <audio  id="audio" controls="" autoplay="">
+            <source src="scaryaudio.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+        
+    
+
+     <style>
+         body{
+             font-size: 20px;
+             
+             color: white;
+             font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+         }
+         h1{
+             font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+             font-size: 80px;
+             padding: 0 0 0 0;
+             margin: 0 0 0 0;
+
+             position:absolute;
+             left: 550px;
+             top: 200px;
+              
+         }
+         a{
+             color:white;
+             text-decoration: none;
+         }
+         a:hover{
+             text-decoration:underline;
+         }
+
+         #scene2{
+             background: url("basement2.jpg") no-repeat center center fixed; 
+             -webkit-background-size:cover;
+             -moz-background-size:cover;
+             -o-background-size:cover;
+             background-size: cover;
+             height:1000px;
+             
+         } 
+
+         #situation2{
+
+            position: absolute;
+            top: 200px;
+         }
+
+         #situation2text{
+             font-size: 60px;
+             position: absolute;
+             top: 400px;
+             left: 560px;
+             
+         }
+         #situation3{
+             font-size: 60px;
+             position: absolute;
+             top: 400px;
+             left: 560px;
+             
+         }
+         
+         #audio{
+            position: relative;
+             top: 200px;
+         }
+        #situation1{
+            font-size: 30px;
+             position: absolute;
+             top: 160px;
+             left: 10px;
+             
+        }
+        #situation2{
+            font-size: 30px;
+             position: absolute;
+             top: 300px;
+             left: 10px;
+        }
+        #situation3{
+            font-size: 30px;
+             position: absolute;
+             top: 400px;
+             left: 10px;
+        }
+
+     </style>
+
+</body>
+      
+</html>
+ 
